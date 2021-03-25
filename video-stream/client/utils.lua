@@ -21,6 +21,7 @@ function RequestTextureDictionary (dict)
 	return dict
 end
 
+
 function LoadModel (model)
 	if not IsModelInCdimage(model) then return end
 
@@ -30,6 +31,10 @@ function LoadModel (model)
 
 	return model
 end
+
+
+
+
 
 -- splits a network address to ip, port compatible with IPv4 and IPv6
 function SplitHostPort(host)

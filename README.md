@@ -13,7 +13,7 @@ URL: rtmp://localhost/live
 Stream key: STREAM_NAME?secret=secret
 ```
 
-Type `/video-stream` to start streaming
+Type `/video-stream` to instantiate a screen at the player position and start streaming to that screen.
 
 # LICENSE
 __MIT__
